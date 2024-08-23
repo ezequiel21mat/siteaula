@@ -1,0 +1,117 @@
+/* Reset de margin e padding */ 
+
+body, h1, h2, p, ul, li { 
+
+    margin: 0; 
+
+    padding: 0; 
+
+} 
+
+ 
+
+/* Estilo do corpo */ 
+
+body { 
+
+    font-family: Arial, sans-serif; /* Fonte padrão */ 
+
+    line-height: 1.6; /* Altura da linha */ 
+
+    background-color: #f4f4f4; /* Cor de fundo */ 
+
+    color: #333; /* Cor do texto */ 
+
+} 
+
+ 
+
+/* Estilo do cabeçalho */ 
+
+header { 
+
+    background: #007bff; /* Cor de fundo do cabeçalho */ 
+
+    color: white; /* Cor do texto do cabeçalho */ 
+
+    padding: 20px; /* Espaço interno */ 
+
+    text-align: center; /* Centralizar texto */ 
+
+} 
+
+ 
+
+/* Estilo do menu de navegação */ 
+
+nav ul { 
+
+    list-style: none; /* Remove bullet points */ 
+
+    padding: 0; /* Remove o padding */ 
+
+} 
+
+ 
+
+nav ul li { 
+
+    display: inline; /* Exibe os itens em linha */ 
+
+    margin: 0 18px; /* Margem entre os itens */ 
+
+} 
+
+ 
+
+nav ul li a { 
+
+    color: Blue; /* Cor dos links */ 
+
+    text-decoration: none; /* Remove os sublinhado*/ 
+
+} 
+
+ 
+
+/* Estilo das seções */ 
+
+section { 
+
+    padding: 20px; /* Espaço do interno */ 
+
+    margin: 20px; /* Margem da externa */ 
+
+    background: white; /* Cor de fundo das seções */ 
+
+    border-radius: 8px; /* Bordas arredondadas */ 
+
+} 
+
+ 
+
+/* Estilo do formulário */ 
+
+form { 
+
+    display: flex; /* Usar flexbox para layout */ 
+
+    flex-direction: column; /* Organizar em coluna */ 
+
+} 
+
+ 
+
+/* Estilo do rodapé */ 
+
+footer { 
+
+    text-align: center; /* Centraliza texto */ 
+
+    padding: 10px; /* Espaço interno */ 
+
+    background: #333; /* Cor de fundo do rodapé */ 
+
+    color: white; /* Cor do texto do rodapé */ 
+
+} 
